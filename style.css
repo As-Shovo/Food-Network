@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #575757;
+}
+
+h2{
+    margin: 10px 0;
+}
+p{
+    color: #828282;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+.orange{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 5%;
+    /* border: 2px solid red; */
+}
+
+.main-text{
+    margin: 100px 0 50px 0;
+    padding-right: 40px;
+
+}
+
+
+.btn-link{
+    text-decoration: none;
+    padding: 15px 40px;
+    font-weight: 600;
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 25px #fd670286;
+}
+.half-width img{
+    width: 80%;
+}
+
+.bg{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-fixed img{
+    margin-top: 70px;
+    width: 55%;
+}
+
+.recip-text{
+    display: block;
+    /* justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+    width: 100%;
+}
+.card-section{
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
+.cards{
+    display: flex;
+}
+
+.third-width{
+    width: 33%;
+}
+.card{
+    display: inline-block;
+    border-radius: 25px;
+    width: 370px;
+    height: 520px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.555);
+    /* border: 2px solid red; */
+}
+.card img{
+    width: 330px;
+    height: 250px;
+}
+
+.subscriber{
+    margin-top: 50px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    padding-left: 5%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.555);
+}
+.fixed{
+    height: 200px;
+    padding-top: 50px;
+}
+
+.fixed h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: #0B0D17;
+    padding-top: 70px;
+    height: 250px;
+}
+
+.footer-text h2 {
+    color: #5B5B5B;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.footer-text p{
+    color: white;
+    padding-bottom: 10px;
+}
