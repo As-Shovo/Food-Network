@@ -78,6 +78,7 @@ section{
     width: 50%;
     margin-left: 5%;
     padding-left: 5%;
+    padding-right: 2%;
     /* border: 2px solid red; */
 }
 
@@ -116,8 +117,7 @@ section{
     margin-top: 70px;
     width: 55%;
 }
-
-.recip-text{
+.text-content{
     display: block;
     /* justify-content: center;
     flex-direction: column; */
@@ -171,6 +171,30 @@ section{
 .fixed h2{
     font-size: 40px;
     margin-bottom: 10px;
+}
+
+.bg2{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+.fixed-customar{
+    margin: 100px 0 20px 0;
+}
+
+.btn-link2{
+    text-decoration: none;
+    padding: 15px 40px;
+    font-weight: 600;
+    background-image: linear-gradient(#ff00ea, #da1eff);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 25px #f71cff86;
+}
+
+.btn-link2:hover{
+    padding: 16px 42px;
 }
 
 .footer-text{
